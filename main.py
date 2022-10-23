@@ -25,6 +25,9 @@ LOADING_CHARS = [
 ]
 
 tm = TM1637(clk=Pin(26), dio=Pin(27), brightness=5)
+tm.numbers(88, 88)
+time.sleep(0.2)
+tm.show("")
 
 # Rotary encoder, for setting the operation mode
 rotary = RotaryIRQ(
