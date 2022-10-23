@@ -44,3 +44,9 @@ mpremote
 
 Enjoy!
 
+## Error codes
+
+The 7-Semgment display may show the following error codes:
+
+- **err0**: The measure could not be retrieved from the DHT sensor, temperature and humidity will be set to 0.
+- **err1**: After connecting to the WiFi, the time could not be set.
